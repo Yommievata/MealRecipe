@@ -1,0 +1,8 @@
+CREATE SCHEMA MichaelMeal;
+
+CREATE TABLE MichaelMeal.meal (
+    idMeal VARCHAR(255) PRIMARY KEY,
+    strMeal VARCHAR(255),
+    strInstructions TEXT,
+    strDrinkAlternate VARCHAR(255)
+);
