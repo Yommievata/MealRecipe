@@ -14,6 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/recipes")
+@CrossOrigin(origins = "*")
 public class MealController {
 
     @Value("${api.url}")
